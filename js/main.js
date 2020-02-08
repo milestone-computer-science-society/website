@@ -10,7 +10,6 @@ const data = [{
     title: "JavaScript basics",
     hover: "Click here for installation instructions",
     url: "https://github.com/milestone-computer-science-society/js-practice",
-    classes: "highlight",
     width: 1,
     height: 2
   },
@@ -58,16 +57,17 @@ const data = [{
     title: "Arduino projects",
     hover: "All projects with code and schematics",
     url: "https://github.com/milestone-computer-science-society/arduino-projects",
+    classes: "highlight",
     width: 2,
-    height: 2,
+    height: 1,
     image: "assets/images/arduino_uno.png"
   },
   {
     title: "Javascript examples",
     hover: "Example codes to learn the basics of JS and NodeJS",
     url: "https://github.com/milestone-computer-science-society/sessions",
-    width: 2,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     title: "Chat App",
@@ -161,7 +161,7 @@ const data = [{
     title: "youcancontact.me",
     hover: "Create contact forms in a minute",
     url: "https://youcancontact.me",
-    classes: "small",
+    classes: "small highlight",
     width: 1,
     height: 1,
   },
@@ -185,6 +185,14 @@ const data = [{
     title: "Secretary: Hajnalka Kosztolányi",
     hover: "Facebook",
     url: "https://facebook.com/profile.php?id=100009033587475",
+    classes: "dark",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Co-Founder: Andás Ádám",
+    hover: "LinkedIn",
+    url: "https://www.linkedin.com/in/andras-adam/",
     classes: "dark",
     width: 1,
     height: 1

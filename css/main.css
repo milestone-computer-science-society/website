@@ -141,6 +141,7 @@ body {
 
 h2 {
   z-index: 10;
+  font-weight: 500;
 }
 
 .rectangle:hover h2 {
@@ -155,8 +156,16 @@ h2 {
   background: #006258;
 }
 
-.small {
-  font-size: 14px;
+.highlight {
+  background: #66BCCC;
+}
+
+.small h2 {
+  font-size: 18px;
+}
+
+.highlight h2 {
+  font-weight: 600;
 }
 
 .w-2 {
