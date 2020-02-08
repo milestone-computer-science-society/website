@@ -60,15 +60,14 @@ const data = [{
     url: "https://github.com/milestone-computer-science-society/arduino-projects",
     width: 2,
     height: 2,
-    image: "assets/images/github.png"
+    image: "assets/images/arduino_uno.png"
   },
   {
     title: "Javascript examples",
     hover: "Example codes to learn the basics of JS and NodeJS",
     url: "https://github.com/milestone-computer-science-society/sessions",
     width: 2,
-    height: 2,
-    image: "assets/images/github.png"
+    height: 2
   },
   {
     title: "Chat App",
