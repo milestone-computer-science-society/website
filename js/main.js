@@ -33,7 +33,7 @@ const data = [{
     title: "Freecodecamp",
     hover: "Great free coding resources",
     url: "https://freecodecamp.org",
-    width: 2,
+    width: 1,
     height: 1,
     image: ""
   },
