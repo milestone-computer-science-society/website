@@ -182,7 +182,6 @@ h2 {
   height: 100%;
   display: block;
   opacity: .45;
-  transition: filter .25s;
   filter: grayscale(100%);
 }
 

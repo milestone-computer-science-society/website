@@ -166,6 +166,22 @@ const data = [{
     height: 1,
   },
   {
+    title: "GreatScott! YouTube channel",
+    hover: "Electronics projects with detailed instructions",
+    url: "https://www.youtube.com/user/greatscottlab",
+    image: "assets/images/greatscott.png",
+    width: 1,
+    height: 1,
+  },
+  {
+    title: "ElectroBOOM YouTube channel",
+    hover: "Great explanations and safety tips for electronics",
+    url: "https://www.youtube.com/user/msadaghd",
+    image: "assets/images/electroboom.png",
+    width: 1,
+    height: 1,
+  },
+  {
     title: "President: Dániel Földi",
     hover: "LinkedIn",
     url: "https://www.linkedin.com/in/daniel-foldi/",
@@ -190,7 +206,7 @@ const data = [{
     height: 1
   },
   {
-    title: "Co-Founder: Andás Ádám",
+    title: "Co-Founder: András Ádám",
     hover: "LinkedIn",
     url: "https://www.linkedin.com/in/andras-adam/",
     classes: "dark",
