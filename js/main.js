@@ -75,8 +75,57 @@ const data = [{
     url: "https://chat.comsci.ml",
     classes: "highlight",
     width: 2,
-    height: 2,
-    image: ""
+    height: 2
+  },
+  {
+    title: "I can see",
+    hover: "Our first ever project is an iOS app that identifies objects (and marks them in AR) seen by the camera",
+    url: "https://github.com/DaniFoldi/I-can-see",
+    width: 1,
+    height: 1,
+    image: "assets/images/i_can_see.png"
+  },
+  {
+    title: "Snake game",
+    hover: "A game where players have to avoid their trails",
+    url: "https://editor.p5js.org/full/2dwOH9S_j",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "1 meter game",
+    hover: "Good luck beating the high score of 10.24",
+    url: "https://editor.p5js.org/full/8Jcg_93l1",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Tower building game",
+    hover: "Build a tower as high as you can",
+    url: "https://editor.p5js.org/full/WTPp7cuUu",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "A birdy game by hihihi23",
+    hover: "A remix of the mobile game \"Don't touch the spikes\"",
+    url: "https://editor.p5js.org/full/AOrGoT6dA",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Dot game",
+    hover: "A remix of the mobile game \"Dot\"",
+    url: "https://editor.p5js.org/full/Fog25jMus",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Tile game",
+    hover: "Try to rearrange the tiles in a way that the image is correct",
+    url: "https://editor.p5js.org/full/fG1tVlCGw",
+    width: 1,
+    height: 1
   },
   {
     title: "Easy-polls",
@@ -154,6 +203,13 @@ const data = [{
     title: "easydice",
     hover: "Dani's project on npm",
     url: "https://www.npmjs.com/package/easydice",
+    width: 1,
+    height: 1,
+  },
+  {
+    title: "Open-Logo",
+    hover: "An unfinished online Logo interpreter",
+    url: "https://danifoldi.github.io/Open-Logo/",
     width: 1,
     height: 1,
   },
