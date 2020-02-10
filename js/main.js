@@ -33,17 +33,16 @@ const data = [{
     title: "Freecodecamp",
     hover: "Great free coding resources",
     url: "https://freecodecamp.org",
+    classes: "small",
     width: 1,
-    height: 1,
-    image: ""
+    height: 1
   },
   {
     title: "Hackernoon",
     hover: "Great programming-related articles",
     url: "https://hackernoon.com",
     width: 1,
-    height: 1,
-    image: ""
+    height: 1
   },
   {
     title: "Our GitHub",
@@ -180,7 +179,6 @@ const data = [{
     title: "Download Trello",
     hover: "Free (or paid) task management tool",
     url: "https://trello.com",
-    classes: "small",
     width: 1,
     height: 1,
     image: "assets/images/trello.png"
