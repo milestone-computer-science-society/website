@@ -89,6 +89,7 @@ const data = [{
     title: "Snake game",
     hover: "A game where players have to avoid their trails",
     url: "https://editor.p5js.org/full/2dwOH9S_j",
+    classes: "highlight",
     width: 1,
     height: 1
   },
@@ -179,6 +180,7 @@ const data = [{
     title: "Download Trello",
     hover: "Free (or paid) task management tool",
     url: "https://trello.com",
+    classes: "small",
     width: 1,
     height: 1,
     image: "assets/images/trello.png"
