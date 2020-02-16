@@ -159,12 +159,12 @@ em.badge {
   background: #E86B68;
   font-style: normal;
   transform: rotate(20deg);
-  font-size: 12px;
+  font-size: 14px;
   transform-origin: center middle;
-  height: 24px;
+  height: 28px;
   padding: 2px 4px;
-  line-height: 24px;
-  border-radius: 12px;
+  line-height: 28px;
+  border-radius: 14px;
 }
 
 em.badge:empty {
@@ -212,6 +212,14 @@ em.badge:empty {
 
   .dark {
     background: #3B8D83;
+  }
+
+  .highlight {
+    background: #338999;
+  }
+
+  em.badge {
+    background: #BF423F;
   }
 }
 
