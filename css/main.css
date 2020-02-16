@@ -185,6 +185,17 @@ h2 {
   filter: grayscale(100%);
 }
 
+@media (prefers-color-scheme: dark) {
+  .rectangle {
+    background: #006258;
+    color: #dfdfdf;
+  }
+
+  .dark {
+    background: #3B8D83;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
