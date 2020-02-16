@@ -66,7 +66,8 @@ const data = [{
     hover: "Example codes to learn the basics of JS and NodeJS",
     url: "https://github.com/milestone-computer-science-society/sessions",
     width: 1,
-    height: 1
+    height: 1,
+    badge: "updated"
   },
   {
     title: "Chat App",
@@ -198,6 +199,22 @@ const data = [{
     width: 1,
     height: 1,
     image: "assets/images/duckduckgo.png"
+  },
+  {
+    title: "Tinkercad Circuits",
+    hover: "Create schematics online and simulate them",
+    url: "https://www.tinkercad.com/circuits",
+    width: 1,
+    height: 1,
+    image: "assets/images/tinkercad.png"
+  },
+  {
+    title: "Download Fritzing",
+    hover: "An app to create advanced schematics",
+    url: "https://fritzing.org/home/",
+    width: 1,
+    height: 1,
+    image: "assets/images/fritzing.png"
   },
   {
     title: "easydice",
