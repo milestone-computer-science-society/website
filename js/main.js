@@ -4,7 +4,8 @@ const data = [{
     url: "https://comsci.ml/Tea",
     classes: "highlight",
     width: 2,
-    height: 1
+    height: 1,
+    badge: "cool"
   },
   {
     title: "JavaScript basics",
@@ -59,11 +60,12 @@ const data = [{
     classes: "highlight",
     width: 2,
     height: 1,
-    image: "assets/images/arduino_uno.png"
+    image: "assets/images/arduino_uno.png",
+    badge: "new"
   },
   {
-    title: "Javascript examples",
-    hover: "Example codes to learn the basics of JS and NodeJS",
+    title: "JavaScript session logs",
+    hover: "The code we wrote during the sessions",
     url: "https://github.com/milestone-computer-science-society/sessions",
     width: 1,
     height: 1,
@@ -112,7 +114,8 @@ const data = [{
     hover: "A remix of the mobile game \"Don't touch the spikes\"",
     url: "https://editor.p5js.org/full/AOrGoT6dA",
     width: 1,
-    height: 1
+    height: 1,
+    badge: "proud"
   },
   {
     title: "Dot game",
@@ -194,7 +197,7 @@ const data = [{
   },
   {
     title: "DuckDuckGo",
-    hover: "Has many productivity features, like !bangs",
+    hover: "Has many productivity features, like !bangs. And doesn't track you",
     url: "https://duckduckgo.om",
     width: 1,
     height: 1,
@@ -301,7 +304,9 @@ $(() => {
       .append(
         $("<div>")
         .append($("<h2>").text(item.title))
-        .attr("data-hover", item.hover).append($("<span>").addClass("background").css(css))
+        .attr("data-hover", item.hover)
+        .append($("<span>").addClass("background").css(css))
+        .append($("<em>").addClass("badge").text(item.badge))
         .addClass("rectangle")
         .addClass(item.classes)
         .addClass(`w-${item.width}`)
