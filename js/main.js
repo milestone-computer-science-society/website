@@ -224,14 +224,7 @@ const data = [{
     hover: "Dani's project on npm",
     url: "https://www.npmjs.com/package/easydice",
     width: 1,
-    height: 1,
-  },
-  {
-    title: "Open-Logo",
-    hover: "An unfinished online Logo interpreter",
-    url: "https://danifoldi.github.io/Open-Logo/",
-    width: 1,
-    height: 1,
+    height: 1
   },
   {
     title: "youcancontact.me",
@@ -239,7 +232,23 @@ const data = [{
     url: "https://youcancontact.me",
     classes: "small highlight",
     width: 1,
+    height: 1
+  },
+  {
+    title: "Open-Logo",
+    hover: "An unfinished online Logo interpreter",
+    url: "https://danifoldi.github.io/Open-Logo/",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Convert anything to PDF",
+    hover: "Upload files and get them back immediately",
+    url: "https://pdf.comsci.ml",
+    classes: "highlight",
+    width: 1,
     height: 1,
+    badge: "beta"
   },
   {
     title: "GreatScott! YouTube channel",
@@ -247,7 +256,7 @@ const data = [{
     url: "https://www.youtube.com/user/greatscottlab",
     image: "assets/images/greatscott.png",
     width: 1,
-    height: 1,
+    height: 1
   },
   {
     title: "ElectroBOOM YouTube channel",
@@ -255,7 +264,7 @@ const data = [{
     url: "https://www.youtube.com/user/msadaghd",
     image: "assets/images/electroboom.png",
     width: 1,
-    height: 1,
+    height: 1
   },
   {
     title: "President: Dániel Földi",
