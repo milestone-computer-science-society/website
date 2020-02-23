@@ -307,6 +307,7 @@ const data = [{
     title: "Two minute papers YouTube channel",
     hover: "Papers written by people a lot smarter than anyone else explained",
     url: "https://www.youtube.com/user/msadaghd",
+    classes: "small",
     image: "assets/images/two_minute_papers.png",
     width: 1,
     height: 1
