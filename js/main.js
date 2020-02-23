@@ -96,6 +96,13 @@ const data = [{
     height: 1
   },
   {
+    title: "Number the dots (game) by Izabellle13",
+    hover: "A quick-paced game to improve your memory",
+    url: "https://editor.p5js.org/full/frcGR7pxe",
+    width: 1,
+    height: 1
+  },
+  {
     title: "1 meter game",
     hover: "Good luck beating the high score of 10.24",
     url: "https://editor.p5js.org/full/8Jcg_93l1",
@@ -118,14 +125,6 @@ const data = [{
     badge: "proud"
   },
   {
-    title: "Number the dots (game) by Izabellle13",
-    hover: "A quick-paced game to improve your memory",
-    url: "https://editor.p5js.org/full/frcGR7pxe",
-    width: 1,
-    height: 1,
-    badge: "proud"
-  },
-  {
     title: "Dot game",
     hover: "A remix of the mobile game \"Dot\"",
     url: "https://editor.p5js.org/full/Fog25jMus",
@@ -136,6 +135,13 @@ const data = [{
     title: "Tile game",
     hover: "Try to rearrange the tiles in a way that the image is correct",
     url: "https://editor.p5js.org/full/fG1tVlCGw",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Fractal animations",
+    hover: "Experiment with the constants to change the fractal",
+    url: "https://editor.p5js.org/full/py_v-BQqd",
     width: 1,
     height: 1
   },
@@ -286,6 +292,22 @@ const data = [{
     hover: "Great explanations and safety tips for electronics",
     url: "https://www.youtube.com/user/msadaghd",
     image: "assets/images/electroboom.png",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Code Bullet YouTube channel",
+    hover: "Game AI & fun combined",
+    url: "https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q",
+    image: "assets/images/codebullet.png",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "Two minute papers YouTube channel",
+    hover: "Papers written by people a lot smarter than anyone else explained",
+    url: "https://www.youtube.com/user/msadaghd",
+    image: "assets/images/two_minute_papers.png",
     width: 1,
     height: 1
   },
