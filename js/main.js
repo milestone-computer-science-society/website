@@ -118,6 +118,14 @@ const data = [{
     badge: "proud"
   },
   {
+    title: "Number the dots (game) by Izabellle13",
+    hover: "A quick-paced game to improve your memory",
+    url: "https://editor.p5js.org/full/frcGR7pxe",
+    width: 1,
+    height: 1,
+    badge: "proud"
+  },
+  {
     title: "Dot game",
     hover: "A remix of the mobile game \"Dot\"",
     url: "https://editor.p5js.org/full/Fog25jMus",
@@ -198,10 +206,25 @@ const data = [{
   {
     title: "DuckDuckGo",
     hover: "Has many productivity features, like !bangs. And doesn't track you",
-    url: "https://duckduckgo.om",
+    url: "https://duckduckgo.com",
     width: 1,
     height: 1,
     image: "assets/images/duckduckgo.png"
+  },
+  {
+    title: "FontSquirrel",
+    hover: "Download fonts that are 100% free for commercial use",
+    url: "https://fontsquirrel.com",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "coolors.co",
+    hover: "Generate color schemes quickly",
+    url: "https://coolors.co",
+    width: 1,
+    height: 1,
+    image: "assets/images/coolors.png"
   },
   {
     title: "Tinkercad Circuits",

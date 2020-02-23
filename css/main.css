@@ -202,6 +202,7 @@ em.badge:empty {
   display: block;
   opacity: .45;
   filter: grayscale(100%);
+  border-radius: 8px;
 }
 
 @media (prefers-color-scheme: dark) {
