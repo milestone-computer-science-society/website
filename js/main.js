@@ -15,6 +15,13 @@ const data = [{
     height: 2
   },
   {
+    title: "Arduino reference",
+    hover: "All built-in functions documented here",
+    url: "https://www.arduino.cc/reference/en/",
+    width: 1,
+    height: 1
+  },
+  {
     title: "Join our Discord server",
     hover: "We help you with any programming question here",
     url: "https://discordapp.com/invite/9kehjGs",
@@ -187,6 +194,13 @@ const data = [{
     image: "assets/images/arduino.png"
   },
   {
+    title: "Install Arduino clone drivers",
+    hover: "CH340G is not natively supported in Windows & macOS",
+    url: "https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all",
+    width: 1,
+    height: 1
+  },
+  {
     title: "Add ESP8266 to Arduino",
     hover: "Espressif's boards with WiFi and many other cool features",
     url: "https://github.com/esp8266/Arduino",
@@ -275,7 +289,7 @@ const data = [{
     hover: "Upload files and get them back immediately",
     url: "https://pdf.comsci.ml",
     classes: "highlight",
-    width: 1,
+    width: 2,
     height: 1,
     badge: "beta"
   },
@@ -309,6 +323,14 @@ const data = [{
     url: "https://www.youtube.com/user/msadaghd",
     classes: "small",
     image: "assets/images/two_minute_papers.png",
+    width: 1,
+    height: 1
+  },
+  {
+    title: "The coding train YouTube channel",
+    hover: "Processing and P5.JS based programming challenges",
+    url: "https://www.youtube.com/user/shiffman",
+    image: "assets/images/the_coding_train.png",
     width: 1,
     height: 1
   },
