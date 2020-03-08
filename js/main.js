@@ -310,6 +310,14 @@ const data = [{
     height: 1
   },
   {
+    title: "LinusTechTips YouTube channel",
+    hover: "Daily dose of tech videos",
+    url: "https://www.youtube.com/user/LinusTechTips",
+    image: "assets/images/linustechtips.png",
+    width: 1,
+    height: 1
+  },
+  {
     title: "Code Bullet YouTube channel",
     hover: "Game AI & fun combined",
     url: "https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q",
