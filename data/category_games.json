@@ -1,0 +1,39 @@
+[{
+    "title": "Snake game",
+    "hover": "A game where players have to avoid their trails",
+    "url": "https://editor.p5js.org/full/2dwOH9S_j",
+    "classes": "highlight"
+  },
+  {
+    "title": "Number the dots (game) by Izabellle13",
+    "hover": "A quick-paced game to improve your memory",
+    "url": "https://editor.p5js.org/full/frcGR7pxe",
+    "badge": "proud"
+  },
+  {
+    "title": "1 meter game",
+    "hover": "Good luck beating the high score of 10.24",
+    "url": "https://editor.p5js.org/full/8Jcg_93l1"
+  },
+  {
+    "title": "Tower building game",
+    "hover": "Build a tower as high as you can",
+    "url": "https://editor.p5js.org/full/WTPp7cuUu"
+  },
+  {
+    "title": "A birdy game by hihihi23",
+    "hover": "A remix of the mobile game \"Don't touch the spikes\"",
+    "url": "https://editor.p5js.org/full/AOrGoT6dA",
+    "badge": "wow"
+  },
+  {
+    "title": "Dot game",
+    "hover": "A remix of the mobile game \"Dot\"",
+    "url": "https://editor.p5js.org/full/Fog25jMus"
+  },
+  {
+    "title": "Tile game",
+    "hover": "Try to rearrange the tiles in a way that the image is correct",
+    "url": "https://editor.p5js.org/full/fG1tVlCGw"
+  }
+]

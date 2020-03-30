@@ -1,0 +1,53 @@
+[{
+    "title": "Download Atom",
+    "hover": "An open-source IDE",
+    "url": "https://atom.io",
+    "image": "assets/images/atom.png"
+  },
+  {
+    "title": "Download Node.JS",
+    "hover": "Runtime for JavaScript based on V8",
+    "url": "https://nodejs.org",
+    "image": "assets/images/nodejs.png"
+  },
+  {
+    "title": "Download MongoDB",
+    "hover": "An open-source IDE",
+    "url": "https://mongodb.com",
+    "image": "assets/images/mongodb.png"
+  },
+  {
+    "title": "Download Arduino IDE",
+    "hover": "An open-source IDE for working with Arduino boards",
+    "url": "https://arduino.cc",
+    "image": "assets/images/arduino.png"
+  },
+  {
+    "title": "Install Arduino clone drivers",
+    "hover": "CH340G is not natively supported in Windows & macOS",
+    "url": "https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all"
+  },
+  {
+    "title": "Add ESP8266 to Arduino",
+    "hover": "Espressif's boards with WiFi and many other cool features",
+    "url": "https://github.com/esp8266/Arduino"
+  },
+  {
+    "title": "Download Trello",
+    "hover": "Free (or paid) task management tool",
+    "url": "https://trello.com",
+    "image": "assets/images/trello.png"
+  },
+  {
+    "title": "Download GitHub Desktop",
+    "hover": "A graphical git client",
+    "url": "https://desktop.github.com",
+    "image": "assets/images/github_desktop.png"
+  },
+  {
+    "title": "Download Fritzing",
+    "hover": "An app to create advanced schematics",
+    "url": "https://fritzing.org/home/",
+    "image": "assets/images/fritzing.png"
+  }
+]

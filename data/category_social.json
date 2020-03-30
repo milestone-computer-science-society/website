@@ -1,0 +1,19 @@
+[{
+    "title": "Join our Discord server",
+    "hover": "We help you with any programming question here",
+    "url": "https://discordapp.com/invite/9kehjGs",
+    "image": "assets/images/discord.png"
+  },
+  {
+    "title": "Join our Facebook group",
+    "hover": "Weekly events are announced here",
+    "url": "https://www.facebook.com/groups/577979165976152/",
+    "image": "assets/images/facebook.png"
+  },
+  {
+    "title": "Our GitHub",
+    "hover": "All repositories are hosted here",
+    "url": "https://github.com/milestone-computer-science-society",
+    "image": "assets/images/github.png"
+  }
+]

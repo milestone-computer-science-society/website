@@ -1,0 +1,33 @@
+[{
+    "title": "Personal websites",
+    "hover": "Check out Tea's CV page as an example",
+    "url": "https://comsci.ml/Tea",
+    "classes": "highlight",
+    "badge": "cool"
+  },
+  {
+    "title": "Arduino projects",
+    "hover": "All projects with code and schematics",
+    "url": "https://github.com/milestone-computer-science-society/arduino-projects",
+    "classes": "highlight",
+    "image": "assets/images/arduino_uno.png",
+    "badge": "new"
+  },
+  {
+    "title": "JavaScript session logs",
+    "hover": "The code we wrote during the sessions",
+    "url": "https://github.com/milestone-computer-science-society/sessions",
+    "badge": "updated"
+  },
+  {
+    "title": "Chat App",
+    "hover": "Send us a message!",
+    "url": "https://chat.comsci.ml",
+    "classes": "highlight"
+  },
+  {
+    "title": "Fractal animations",
+    "hover": "Experiment with the constants to change the fractal",
+    "url": "https://editor.p5js.org/full/py_v-BQqd"
+  }
+]

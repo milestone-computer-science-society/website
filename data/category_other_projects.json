@@ -1,0 +1,37 @@
+[{
+    "title": "I can see",
+    "hover": "Our first ever project is an iOS app that identifies objects (and marks them in AR) seen by the camera",
+    "url": "https://github.com/DaniFoldi/I-can-see",
+    "image": "assets/images/i_can_see.png"
+  },
+  {
+    "title": "Easy-polls",
+    "hover": "Create polls quickly",
+    "url": "https://polls.comsci.ml",
+    "classes": "highlight",
+    "image": "assets/images/easy-polls.png"
+  },
+  {
+    "title": "easydice",
+    "hover": "Dani's project on npm",
+    "url": "https://www.npmjs.com/package/easydice"
+  },
+  {
+    "title": "youcancontact.me",
+    "hover": "Create contact forms in a minute",
+    "url": "https://youcancontact.me",
+    "classes": "small highlight"
+  },
+  {
+    "title": "Open-Logo",
+    "hover": "An unfinished online Logo interpreter",
+    "url": "https://danifoldi.github.io/Open-Logo/"
+  },
+  {
+    "title": "Convert anything to PDF",
+    "hover": "Upload files and get them back immediately",
+    "url": "https://pdf.comsci.ml",
+    "classes": "highlight",
+    "badge": "beta"
+  }
+]

@@ -1,0 +1,25 @@
+[{
+    "title": "President: Dániel Földi",
+    "hover": "LinkedIn",
+    "url": "https://www.linkedin.com/in/daniel-foldi/",
+    "classes": "dark"
+  },
+  {
+    "title": "Vice-President: Tea Tóth",
+    "hover": "LinkedIn",
+    "url": "https://www.linkedin.com/in/tea-toth/",
+    "classes": "dark"
+  },
+  {
+    "title": "Secretary: Hajnalka Kosztolányi",
+    "hover": "Facebook",
+    "url": "https://facebook.com/profile.php?id=100009033587475",
+    "classes": "dark"
+  },
+  {
+    "title": "Co-Founder: András Ádám",
+    "hover": "LinkedIn",
+    "url": "https://www.linkedin.com/in/andras-adam/",
+    "classes": "dark"
+  }
+]

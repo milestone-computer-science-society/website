@@ -1,0 +1,24 @@
+[{
+    "title": "DuckDuckGo",
+    "hover": "Has many productivity features, like !bangs. And doesn't track you",
+    "url": "https://duckduckgo.com",
+    "image": "assets/images/duckduckgo.png"
+  },
+  {
+    "title": "FontSquirrel",
+    "hover": "Download fonts that are 100% free for commercial use",
+    "url": "https://fontsquirrel.com"
+  },
+  {
+    "title": "coolors.co",
+    "hover": "Generate color schemes quickly",
+    "url": "https://coolors.co",
+    "image": "assets/images/coolors.png"
+  },
+  {
+    "title": "Tinkercad Circuits",
+    "hover": "Create schematics online and simulate them",
+    "url": "https://www.tinkercad.com/circuits",
+    "image": "assets/images/tinkercad.png"
+  }
+]

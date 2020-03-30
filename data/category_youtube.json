@@ -1,0 +1,38 @@
+[{
+    "title": "GreatScott! YouTube channel",
+    "hover": "Electronics projects with detailed instructions",
+    "url": "https://www.youtube.com/user/greatscottlab",
+    "image": "assets/images/greatscott.png"
+  },
+  {
+    "title": "ElectroBOOM YouTube channel",
+    "hover": "Great explanations and safety tips for electronics",
+    "url": "https://www.youtube.com/user/msadaghd",
+    "image": "assets/images/electroboom.png"
+  },
+  {
+    "title": "LinusTechTips YouTube channel",
+    "hover": "Daily dose of tech videos",
+    "url": "https://www.youtube.com/user/LinusTechTips",
+    "image": "assets/images/linustechtips.png"
+  },
+  {
+    "title": "Code Bullet YouTube channel",
+    "hover": "Game AI & fun combined",
+    "url": "https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q",
+    "image": "assets/images/codebullet.png"
+  },
+  {
+    "title": "Two minute papers YouTube channel",
+    "hover": "Papers written by people a lot smarter than me explained",
+    "url": "https://www.youtube.com/user/msadaghd",
+    "classes": "small",
+    "image": "assets/images/two_minute_papers.png"
+  },
+  {
+    "title": "The coding train YouTube channel",
+    "hover": "Processing and P5.JS based programming challenges",
+    "url": "https://www.youtube.com/user/shiffman",
+    "image": "assets/images/the_coding_train.png"
+  }
+]

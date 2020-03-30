@@ -1,404 +1,56 @@
-const data = [{
-    title: "Personal websites",
-    hover: "Check out Tea's CV page as an example",
-    url: "https://comsci.ml/Tea",
-    classes: "highlight",
-    width: 2,
-    height: 1,
-    badge: "cool"
-  },
-  {
-    title: "JavaScript basics",
-    hover: "Click here for installation instructions",
-    url: "https://github.com/milestone-computer-science-society/js-practice",
-    width: 1,
-    height: 2
-  },
-  {
-    title: "Arduino reference",
-    hover: "All built-in functions documented here",
-    url: "https://www.arduino.cc/reference/en/",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Join our Discord server",
-    hover: "We help you with any programming question here",
-    url: "https://discordapp.com/invite/9kehjGs",
-    width: 2,
-    height: 2,
-    image: "assets/images/discord.png"
-  },
-  {
-    title: "Join our Facebook group",
-    hover: "Weekly events are announced here",
-    url: "https://www.facebook.com/groups/577979165976152/",
-    width: 1,
-    height: 2,
-    image: "assets/images/facebook.png"
-  },
-  {
-    title: "Freecodecamp",
-    hover: "Great free coding resources",
-    url: "https://freecodecamp.org",
-    classes: "small",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Hackernoon",
-    hover: "Great programming-related articles",
-    url: "https://hackernoon.com",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Our GitHub",
-    hover: "All repositories are hosted here",
-    url: "https://github.com/milestone-computer-science-society",
-    width: 2,
-    height: 2,
-    image: "assets/images/github.png"
-  },
-  {
-    title: "Arduino projects",
-    hover: "All projects with code and schematics",
-    url: "https://github.com/milestone-computer-science-society/arduino-projects",
-    classes: "highlight",
-    width: 2,
-    height: 1,
-    image: "assets/images/arduino_uno.png",
-    badge: "new"
-  },
-  {
-    title: "JavaScript session logs",
-    hover: "The code we wrote during the sessions",
-    url: "https://github.com/milestone-computer-science-society/sessions",
-    width: 1,
-    height: 1,
-    badge: "updated"
-  },
-  {
-    title: "Chat App",
-    hover: "Available 24/7 - Send us a message!",
-    url: "https://chat.comsci.ml",
-    classes: "highlight",
-    width: 2,
-    height: 2
-  },
-  {
-    title: "I can see",
-    hover: "Our first ever project is an iOS app that identifies objects (and marks them in AR) seen by the camera",
-    url: "https://github.com/DaniFoldi/I-can-see",
-    width: 1,
-    height: 1,
-    image: "assets/images/i_can_see.png"
-  },
-  {
-    title: "Snake game",
-    hover: "A game where players have to avoid their trails",
-    url: "https://editor.p5js.org/full/2dwOH9S_j",
-    classes: "highlight",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Number the dots (game) by Izabellle13",
-    hover: "A quick-paced game to improve your memory",
-    url: "https://editor.p5js.org/full/frcGR7pxe",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "1 meter game",
-    hover: "Good luck beating the high score of 10.24",
-    url: "https://editor.p5js.org/full/8Jcg_93l1",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Tower building game",
-    hover: "Build a tower as high as you can",
-    url: "https://editor.p5js.org/full/WTPp7cuUu",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "A birdy game by hihihi23",
-    hover: "A remix of the mobile game \"Don't touch the spikes\"",
-    url: "https://editor.p5js.org/full/AOrGoT6dA",
-    width: 1,
-    height: 1,
-    badge: "proud"
-  },
-  {
-    title: "Dot game",
-    hover: "A remix of the mobile game \"Dot\"",
-    url: "https://editor.p5js.org/full/Fog25jMus",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Tile game",
-    hover: "Try to rearrange the tiles in a way that the image is correct",
-    url: "https://editor.p5js.org/full/fG1tVlCGw",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Fractal animations",
-    hover: "Experiment with the constants to change the fractal",
-    url: "https://editor.p5js.org/full/py_v-BQqd",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Easy-polls",
-    hover: "Create polls quickly",
-    url: "https://polls.comsci.ml",
-    classes: "highlight",
-    width: 1,
-    height: 1,
-    image: "assets/images/easy-polls.png"
-  },
-  {
-    title: "Download Atom",
-    hover: "An open-source IDE",
-    url: "https://atom.io",
-    width: 1,
-    height: 1,
-    image: "assets/images/atom.png"
-  },
-  {
-    title: "Download Node.JS",
-    hover: "Runtime for JavaScript based on V8",
-    url: "https://nodejs.org",
-    width: 1,
-    height: 1,
-    image: "assets/images/nodejs.png"
-  },
-  {
-    title: "Download MongoDB",
-    hover: "An open-source IDE",
-    url: "https://mongodb.com",
-    width: 1,
-    height: 1,
-    image: "assets/images/mongodb.png"
-  },
-  {
-    title: "Download Arduino IDE",
-    hover: "An open-source IDE for working with Arduino boards",
-    url: "https://arduino.cc",
-    width: 1,
-    height: 1,
-    image: "assets/images/arduino.png"
-  },
-  {
-    title: "Install Arduino clone drivers",
-    hover: "CH340G is not natively supported in Windows & macOS",
-    url: "https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Add ESP8266 to Arduino",
-    hover: "Espressif's boards with WiFi and many other cool features",
-    url: "https://github.com/esp8266/Arduino",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Download Trello",
-    hover: "Free (or paid) task management tool",
-    url: "https://trello.com",
-    width: 1,
-    height: 1,
-    image: "assets/images/trello.png"
-  },
-  {
-    title: "Download GitHub Desktop",
-    hover: "A graphical git client",
-    url: "https://desktop.github.com",
-    width: 1,
-    height: 1,
-    image: "assets/images/github_desktop.png"
-  },
-  {
-    title: "DuckDuckGo",
-    hover: "Has many productivity features, like !bangs. And doesn't track you",
-    url: "https://duckduckgo.com",
-    width: 1,
-    height: 1,
-    image: "assets/images/duckduckgo.png"
-  },
-  {
-    title: "FontSquirrel",
-    hover: "Download fonts that are 100% free for commercial use",
-    url: "https://fontsquirrel.com",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "coolors.co",
-    hover: "Generate color schemes quickly",
-    url: "https://coolors.co",
-    width: 1,
-    height: 1,
-    image: "assets/images/coolors.png"
-  },
-  {
-    title: "Tinkercad Circuits",
-    hover: "Create schematics online and simulate them",
-    url: "https://www.tinkercad.com/circuits",
-    width: 1,
-    height: 1,
-    image: "assets/images/tinkercad.png"
-  },
-  {
-    title: "Download Fritzing",
-    hover: "An app to create advanced schematics",
-    url: "https://fritzing.org/home/",
-    width: 1,
-    height: 1,
-    image: "assets/images/fritzing.png"
-  },
-  {
-    title: "easydice",
-    hover: "Dani's project on npm",
-    url: "https://www.npmjs.com/package/easydice",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "youcancontact.me",
-    hover: "Create contact forms in a minute",
-    url: "https://youcancontact.me",
-    classes: "small highlight",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Open-Logo",
-    hover: "An unfinished online Logo interpreter",
-    url: "https://danifoldi.github.io/Open-Logo/",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Convert anything to PDF",
-    hover: "Upload files and get them back immediately",
-    url: "https://pdf.comsci.ml",
-    classes: "highlight",
-    width: 2,
-    height: 1,
-    badge: "beta"
-  },
-  {
-    title: "GreatScott! YouTube channel",
-    hover: "Electronics projects with detailed instructions",
-    url: "https://www.youtube.com/user/greatscottlab",
-    image: "assets/images/greatscott.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "ElectroBOOM YouTube channel",
-    hover: "Great explanations and safety tips for electronics",
-    url: "https://www.youtube.com/user/msadaghd",
-    image: "assets/images/electroboom.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "LinusTechTips YouTube channel",
-    hover: "Daily dose of tech videos",
-    url: "https://www.youtube.com/user/LinusTechTips",
-    image: "assets/images/linustechtips.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Code Bullet YouTube channel",
-    hover: "Game AI & fun combined",
-    url: "https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q",
-    image: "assets/images/codebullet.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Two minute papers YouTube channel",
-    hover: "Papers written by people a lot smarter than anyone else explained",
-    url: "https://www.youtube.com/user/msadaghd",
-    classes: "small",
-    image: "assets/images/two_minute_papers.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "The coding train YouTube channel",
-    hover: "Processing and P5.JS based programming challenges",
-    url: "https://www.youtube.com/user/shiffman",
-    image: "assets/images/the_coding_train.png",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "President: Dániel Földi",
-    hover: "LinkedIn",
-    url: "https://www.linkedin.com/in/daniel-foldi/",
-    classes: "dark",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Vice-President: Tea Tóth",
-    hover: "LinkedIn",
-    url: "https://www.linkedin.com/in/tea-toth/",
-    classes: "dark",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Secretary: Hajnalka Kosztolányi",
-    hover: "Facebook",
-    url: "https://facebook.com/profile.php?id=100009033587475",
-    classes: "dark",
-    width: 1,
-    height: 1
-  },
-  {
-    title: "Co-Founder: András Ádám",
-    hover: "LinkedIn",
-    url: "https://www.linkedin.com/in/andras-adam/",
-    classes: "dark",
-    width: 1,
-    height: 1
-  }
-]
+$(async () => {
+  const raw = await fetch('data/main.json')
+  const data = await raw.json()
+  $.each(data, async (row_index, category) => {
+    $('#container').append($('<h1>').text(category.title))
+    const rowContainer = $('<div>').addClass('row').appendTo('#container')
+    const raw = await fetch(`data/${category.file}`)
+    const data = await raw.json()
 
-$(() => {
-  for (let item of data) {
-    const css = {}
-    if (item.image) {
-      css.backgroundImage = `url(${item.image})`
-      css.backgroundRepeat = 'no-repeat'
-      css.backgroundSize = 'contain'
-      css.backgroundPosition = 'center'
-    }
-    $("#rectangles")
-      .append(
-        $("<div>")
+    $.each(data, async (column_index, item) => {
+      const css = {}
+      if (item.image) {
+        css.backgroundImage = `url(${item.image})`
+        css.backgroundRepeat = 'no-repeat'
+        css.backgroundSize = 'contain'
+        css.backgroundPosition = 'center'
+      }
+      $("<div>")
         .append($("<h2>").text(item.title))
         .attr("data-hover", item.hover)
         .append($("<span>").addClass("background").css(css))
         .append($("<em>").addClass("badge").text(item.badge))
         .addClass("rectangle")
         .addClass(item.classes)
-        .addClass(`w-${item.width}`)
-        .addClass(`h-${item.height}`)
         .click(() => {
           open(item.url)
         })
-      )
-  }
+        .appendTo(rowContainer)
+    })
+  })
+  /*
+    for (let item of data) {
+      const css = {}
+      if (item.image) {
+        css.backgroundImage = `url(${item.image})`
+        css.backgroundRepeat = 'no-repeat'
+        css.backgroundSize = 'contain'
+        css.backgroundPosition = 'center'
+      }
+      $("#rectangles")
+        .append(
+          $("<div>")
+          .append($("<h2>").text(item.title))
+          .attr("data-hover", item.hover)
+          .append($("<span>").addClass("background").css(css))
+          .append($("<em>").addClass("badge").text(item.badge))
+          .addClass("rectangle")
+          .addClass(item.classes)
+          .addClass(`w-${item.width}`)
+          .addClass(`h-${item.height}`)
+          .click(() => {
+            open(item.url)
+          })
+        )
+    }*/
 })
