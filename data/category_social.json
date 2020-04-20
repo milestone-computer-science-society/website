@@ -1,7 +1,13 @@
 [{
     "title": "Join our Discord server",
     "hover": "We help you with any programming question here",
-    "url": "https://discordapp.com/invite/9kehjGs",
+    "url": "https://discord.gg/9kehjGs",
+    "image": "assets/images/discord.png"
+  },
+  {
+    "title": "Milestone Student Life Discord",
+    "hover": "Powered by ComSci",
+    "url": "https://discord.gg/FDtYpNQ",
     "image": "assets/images/discord.png"
   },
   {
