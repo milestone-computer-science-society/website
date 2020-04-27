@@ -1,17 +1,29 @@
 [{
-    "title": "President: Dániel Földi",
+    "title": "President: Dániel Miksi",
+    "hover": "Facebook",
+    "url": "https://www.facebook.com/daniel.miksi.3",
+    "classes": "dark"
+  },
+  {
+    "title": "Vice-President: Dóra Békei",
+    "hover": "Facebook",
+    "url": "https://www.facebook.com/congrats.if.you.see.this",
+    "classes": "dark"
+  },
+  {
+    "title": "Ex-President and Co-Founder: Dániel Földi",
     "hover": "LinkedIn",
     "url": "https://www.linkedin.com/in/daniel-foldi/",
     "classes": "dark"
   },
   {
-    "title": "Vice-President: Tea Tóth",
+    "title": "Ex-Vice-President: Tea Tóth",
     "hover": "LinkedIn",
     "url": "https://www.linkedin.com/in/tea-toth/",
     "classes": "dark"
   },
   {
-    "title": "Secretary: Hajnalka Kosztolányi",
+    "title": "Ex-secretary: Hajnalka Kosztolányi",
     "hover": "Facebook",
     "url": "https://facebook.com/profile.php?id=100009033587475",
     "classes": "dark"

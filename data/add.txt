@@ -1,14 +1,10 @@
-p5 editor
-p5 reference
-python download
-linustechtips
-milestone website
-raywenderlich
-mdn
-w3schools
-blockly weboldalhoz
-áron féle lézeres dolog
-9to5mac
-techcrunch
-the nature of code
-node reference
+p5 editor (ide)
+linustechtips (forum)
+raywenderlich (tutorials)
+mdn (reference)
+w3schools (reference)
+9to5mac (news)
+9to5google (news)
+techcrunch (news)
+node reference (referene)
+socket.io reference (reference)

@@ -1,5 +1,6 @@
 body {
-  background: #24766C;
+  background: #001a75;
+  color: #c9c7c7;
   font-family: Quicksand;
   max-width: 100%;
   overflow-x: hidden;
@@ -34,7 +35,7 @@ body {
 }
 
 .rectangle {
-  background: #64B6AC;
+  background: #2c93c8;
   border-radius: 8px;
   color: white;
   cursor: pointer;
@@ -47,8 +48,12 @@ body {
   position: relative;
   text-align: center;
   text-shadow: 0 0 2px black;
-  transition: box-shadow .5s, opacity .5s;
+  transition: box-shadow .5s, opacity .5s, filter .5s;
   word-wrap: break-word;
+}
+
+.rectangle:hover {
+  filter: brightness(85%);
 }
 
 .rectangle:hover:after {
@@ -70,19 +75,22 @@ h2 {
 }
 
 em.badge {
-  background: #E86B68;
+  background: #ebc002;
   border-radius: 14px;
+  color: #1f1d1e;
   font-size: 14px;
   font-style: normal;
+  font-weight: 600;
   height: 28px;
   line-height: 28px;
   padding: 2px 4px;
   position: absolute;
   right: -5px;
+  text-shadow: none;
   text-transform: uppercase;
   top: -5px;
   transform: rotate(20deg);
-  transform-origin: center middle;
+  transform-origin: center;
 }
 
 em.badge:empty {
@@ -90,11 +98,11 @@ em.badge:empty {
 }
 
 .dark {
-  background: #006258;
+  background: #26007edc;
 }
 
 .highlight {
-  background: #66BCCC;
+  background: #04aad6;
 }
 
 .small>h2 {
@@ -124,20 +132,28 @@ em.badge:empty {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background: #0a1e64;
+  }
+
   .rectangle {
-    background: #006258;
+    background: #2c93c8;
     color: #dfdfdf;
   }
 
+  .rectangle:hover {
+    filter: brightness(115%);
+  }
+
   .dark {
-    background: #3B8D83;
+    background: #26007edc;
   }
 
   .highlight {
-    background: #338999;
+    background: #04aad6;
   }
 
   em.badge {
-    background: #BF423F;
+    background: #ebc002;
   }
 }

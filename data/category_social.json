@@ -21,5 +21,10 @@
     "hover": "All repositories are hosted here",
     "url": "https://github.com/milestone-computer-science-society",
     "image": "assets/images/github.png"
+  },
+  {
+    "title": "Milestone's website",
+    "hover": "Official website of the Institute",
+    "url": "https://milestone-institute.org/society/computer-science-society/"
   }
 ]

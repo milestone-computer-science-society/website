@@ -5,6 +5,11 @@
     "image": "assets/images/atom.png"
   },
   {
+    "title": "Add Teletype to Atom",
+    "hover": "Real-time collaboration platform",
+    "url": "https://atom.io/teletype"
+  },
+  {
     "title": "Download Node.JS",
     "hover": "Runtime for JavaScript based on V8",
     "url": "https://nodejs.org",
@@ -12,9 +17,15 @@
   },
   {
     "title": "Download MongoDB",
-    "hover": "An open-source IDE",
-    "url": "https://mongodb.com",
+    "hover": "An open-source database engine",
+    "url": "https://www.mongodb.com/download-center/community",
     "image": "assets/images/mongodb.png"
+  },
+  {
+    "title": "Download Python 3",
+    "hover": "100% snake-free programming",
+    "url": "https://python.org/downloads",
+    "image": "assets/images/python.png"
   },
   {
     "title": "Download Arduino IDE",

@@ -2,4 +2,8 @@
   "title": "Arduino reference",
   "hover": "All built-in functions documented here",
   "url": "https://www.arduino.cc/reference/en/"
+}, {
+  "title": "p5.js reference",
+  "hover": "Full reference for the easy-to-use p5.js library",
+  "url": "https://p5js.org/reference"
 }]

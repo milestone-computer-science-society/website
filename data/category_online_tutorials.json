@@ -1,6 +1,17 @@
 [{
-  "title": "Freecodecamp",
-  "hover": "Great free coding resources",
-  "url": "https://freecodecamp.org",
-  "classes": "small"
-}]
+    "title": "Freecodecamp",
+    "hover": "Great free coding resources",
+    "url": "https://freecodecamp.org",
+    "classes": "small"
+  },
+  {
+    "title": "Blockly games",
+    "hover": "A good starting point for those with no experience",
+    "url": "https://blockly.games"
+  },
+  {
+    "title": "The Nature of Code 2",
+    "hover": "Written by a Processing.org board member",
+    "url": "https://github.com/nature-of-code/noc-book-2"
+  }
+]
