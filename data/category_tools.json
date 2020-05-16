@@ -1,4 +1,9 @@
 [{
+    "title": "p5.js editor",
+    "hover": "Online environment to quickly test code using the p5.js library",
+    "url": "https://editor.p5js.org"
+  },
+  {
     "title": "DuckDuckGo",
     "hover": "Has many productivity features, like !bangs. And doesn't track you",
     "url": "https://duckduckgo.com",

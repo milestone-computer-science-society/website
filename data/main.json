@@ -11,20 +11,8 @@
     "file": "category_social.json"
   },
   {
-    "title": "Tech news",
-    "file": "category_news.json"
-  },
-  {
     "title": "Other projects",
     "file": "category_other_projects.json"
-  },
-  {
-    "title": "Recommended YouTube channels",
-    "file": "category_youtube.json"
-  },
-  {
-    "title": "ComSci Leadership",
-    "file": "category_leadership.json"
   },
   {
     "title": "Download the software we use",
@@ -32,7 +20,7 @@
   },
   {
     "title": "Great online tutorials",
-    "file": "category_news.json"
+    "file": "category_online_tutorials.json"
   },
   {
     "title": "Reference for programming languages",
@@ -40,10 +28,18 @@
   },
   {
     "title": "Free tools online",
+    "file": "category_tools.json"
+  },
+  {
+    "title": "Recommended YouTube channels",
     "file": "category_youtube.json"
   },
   {
-    "title": "Our special resources",
-    "file": "category_resources.json"
+    "title": "Tech news",
+    "file": "category_news.json"
+  },
+  {
+    "title": "ComSci Leadership",
+    "file": "category_leadership.json"
   }
 ]

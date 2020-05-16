@@ -1,5 +1,21 @@
 [{
-  "title": "Hackernoon",
-  "hover": "Great programming-related articles",
-  "url": "https://hackernoon.com"
-}]
+    "title": "Hackernoon",
+    "hover": "Great programming-related articles",
+    "url": "https://hackernoon.com"
+  },
+  {
+    "title": "9to5mac",
+    "hover": "Apple-related news",
+    "url": "https://9to5mac.com"
+  },
+  {
+    "title": "9to5google",
+    "hover": "Google and Android-related news",
+    "url": "https://9to5google.com"
+  },
+  {
+    "title": "Techcrunch",
+    "hover": "Tech news from all over the world",
+    "url": "https://techcrunch.com"
+  }
+]

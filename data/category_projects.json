@@ -26,6 +26,11 @@
     "classes": "highlight"
   },
   {
+    "title": "JavaScript basics",
+    "hover": "Click here for installation instructions",
+    "url": "https://github.com/milestone-computer-science-society/js-practice"
+  },
+  {
     "title": "Fractal animations",
     "hover": "Experiment with the constants to change the fractal",
     "url": "https://editor.p5js.org/full/py_v-BQqd"
