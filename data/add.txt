@@ -3,8 +3,8 @@ linustechtips (forum)
 raywenderlich (tutorials)
 mdn (reference)
 w3schools (reference)
-9to5mac (news)
-9to5google (news)
-techcrunch (news)
-node reference (referene)
+node reference (reference)
 socket.io reference (reference)
+hopson
+dani
+city sim ch
