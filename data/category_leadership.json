@@ -5,7 +5,19 @@
     "classes": "dark"
   },
   {
-    "title": "Vice-President: Dóra Békei",
+    "title": "Vice-President: Szihalmi Botond",
+    "hover": "Facebook",
+    "url": "https://www.facebook.com/profile.php?id=100008257951519",
+    "classes": "dark"
+  },
+  {
+    "title": "Secretary: Németh Marcell",
+    "hover": "Facebook",
+    "url": "https://www.facebook.com/profile.php?id=100013374947213",
+    "classes": "dark"
+  },
+  {
+    "title": "Ex President: Dóra Békei",
     "hover": "Facebook",
     "url": "https://www.facebook.com/congrats.if.you.see.this",
     "classes": "dark"

@@ -60,5 +60,11 @@
     "hover": "An app to create advanced schematics",
     "url": "https://fritzing.org/home/",
     "image": "assets/images/fritzing.png"
+  },
+  {
+    "title": "Download Visual Studio Code",
+    "hover": "An app to create advanced schematics",
+    "url": "https://code.visualstudio.com/Download",
+    "image": "assets/images/vscode.png"
   }
 ]
