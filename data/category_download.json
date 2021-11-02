@@ -60,5 +60,17 @@
     "hover": "An app to create advanced schematics",
     "url": "https://fritzing.org/home/",
     "image": "assets/images/fritzing.png"
+  },
+  {
+    "title": "Download Visual Studio Code",
+    "hover": "An open-source IDE",
+    "url": "https://code.visualstudio.com/Download",
+    "image": "assets/images/vscode.png"
+  },
+  {
+    "title": "Download Unity",
+    "hover": "An app to create both simple and advanced games",
+    "url": "https://unity.com/download",
+    "image": "aassets/images/unity.png"
   }
 ]
