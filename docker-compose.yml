@@ -1,0 +1,39 @@
+version: '3.7'
+
+networks:
+  docker-data_traefik-proxy:
+    external: true
+
+services:
+  milestone-frontend:
+    image: ghcr.io/milestone-computer-science-society/website:{{stable}}
+    restart: always
+    container_name: milestone-frontend
+    environment:
+      NODE_ENV: production
+    networks:
+      - docker-data_traefik-proxy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.milestone-frontend.rule=Host(`comsci.msinst.org`)
+      - traefik.http.routers.milestone-frontend.entrypoints=https
+      - traefik.http.routers.milestone-frontend.tls.certresolver=letsencrypt
+      - traefik.http.routers.milestone-frontend.service=milestone-frontend
+      - traefik.http.routers.milestone-frontend.middlewares=cloudflare-ip-whitelist
+      - traefik.http.services.milestone-frontend.loadbalancer.server.port=80
+  milestone-frontend-beta:
+    image: ghcr.io/milestone-computer-science-society/website:{{beta}}
+    restart: unless-stopped
+    container_name: milestone-frontend-beta
+    environment:
+      DEBUG: '*'
+    networks:
+      - docker-data_traefik-proxy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.milestone-frontend-beta.rule=Host(`mscomsci.danifoldi.com`)
+      - traefik.http.routers.milestone-frontend-beta.entrypoints=https
+      - traefik.http.routers.milestone-frontend-beta.tls.certresolver=cloudflare
+      - traefik.http.routers.milestone-frontend-beta.service=milestone-frontend-beta
+      - traefik.http.routers.milestone-frontend-beta.middlewares=cloudflare-ip-whitelist
+      - traefik.http.services.milestone-frontend-beta.loadbalancer.server.port=80
