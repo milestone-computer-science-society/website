@@ -2,14 +2,10 @@
   "name": "comsci-website",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/milestone-computer-science-society/website/issues"
   },
-  "homepage": "https://github.com/milestone-computer-science-society/website#readme"
+  "homepage": "https://github.com/milestone-computer-science-society/website#readme",
+  "dependencies": {
+    "fastify": "^3.24.0",
+    "fastify-static": "^4.5.0"
+  }
 }
