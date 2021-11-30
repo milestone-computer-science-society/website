@@ -10,7 +10,7 @@
     "hover": "All projects with code and schematics",
     "url": "https://github.com/milestone-computer-science-society/arduino-projects",
     "classes": "highlight",
-    "image": "assets/images/arduino_uno.png",
+    "image": "assets/images/arduino_uno.png"
   },
   {
     "title": "JavaScript session logs",
