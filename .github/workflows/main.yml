@@ -93,6 +93,6 @@ jobs:
           username: ci
           password: ${{ secrets.PORTAINER_KEY }}
           endpoint-id: 2
-          stack-name: milestone
+          stack-name: gh-milestone
           stack-definition: docker-compose.yml
           variables: '{"stable": "${{ steps.fetch-latest-release.outputs.latest-release }}", "beta": "${{ steps.fetch-latest-hash.outputs.latest-hash }}"}'

@@ -34,5 +34,11 @@
     "hover": "Processing and P5.JS based programming challenges",
     "url": "https://www.youtube.com/user/shiffman",
     "image": "assets/images/the_coding_train.png"
+  },
+  {
+    "title": "Sebastian Lague Youtube channel",
+    "hover": "",
+    "url": "https://www.youtube.com/c/SebastianLague",
+    "image": "assets/images/sebastian_lague.jpg"
   }
 ]
