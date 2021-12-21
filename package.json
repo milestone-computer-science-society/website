@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/milestone-computer-science-society/website#readme",
   "dependencies": {
-    "fastify": "^3.24.1",
+    "fastify": "^3.25.1",
     "fastify-static": "^4.5.0"
   }
 }
