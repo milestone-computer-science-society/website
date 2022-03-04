@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://danieltemkin.com/DrunkEliza -->
+<html><head id="Head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Daniel Temkin | Drunk Eliza</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <link href="./Daniel Temkin _ Drunk Eliza_files/ElizaMenu.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="./Daniel Temkin _ Drunk Eliza_files/entropy.js."></script>
+    <script type="text/javascript" src="./Daniel Temkin _ Drunk Eliza_files/DrunkEliza.js"></script>
+    <script type="text/javascript">
+        // ui stuff
+
+        function setFocus() {
+            $('html, body').scrollTop($(document).height());
+            $('#userInput').focus();
+        }
+
+        $(document).ready(function () {
+            setFocus();
+            $(document).on('submit', '#my-form', function() {
+                processInput($('#youLit').text(), $('#userInput').val());
+                return false;
+            });
+        });
+
+    </script>
+    <link rel="Stylesheet" type="text/css" href="./Daniel Temkin _ Drunk Eliza_files/fonts-min.css">
+    <link rel="Stylesheet" type="text/css" href="./Daniel Temkin _ Drunk Eliza_files/reset-min.css">
+    <!--<link rel="Stylesheet" type="text/css" href="./Daniel Temkin _ Drunk Eliza_files/HybridDesign.css">-->
+    <!--<link rel="Stylesheet" type="text/css" href="./Daniel Temkin _ Drunk Eliza_files/DefaultFont.css">-->
+    <link rel="icon" type="image/png" href="https://danieltemkin.com/Images/favicon.png">
+</head>
+<body>
+    
+
+<div style="width: 410px; position: absolute; left: 600px; top: 20px;">
+    <ul id="nav">
+        <li>
+            What is this???
+            <ul>
+                <li>
+                    <b>
+                        Eliza is a proto-chatbot, first written in 1966. She mimics a Rogerian psychotherapist, using simple pattern recognition and a short list of responses to carry on a conversation.
+                        Her creator, Joseph Weizebaum, was surprised and disturbed by how quickly
+                        users ascribed a personality to her even though they knew she was software.
+                        <br><br>
+                        I wrote the programming language Entropy in 2010 to address the way compulsive habits are reinforced by the act of programming. In Entropy, all data decays over time, forcing the programmer to approximate,
+                        to give up precision and control as disorder sets in.
+                        <br><br>
+                        I wondered what personality Eliza would have when written in Entropy. I adapted the program, keeping her logic and bank of phrases intact, and the result was Drunk Eliza.
+                    </b>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div id="elizaMain">
+    <form id="my-form">
+        <div id="elizaText"></div>
+        <div style="white-space: nowrap">
+            <span id="youLit"></span><input type="text" id="userInput" class="textEntry" maxlength="64" autocomplete="off">
+        </div>
+    </form>
+</div>
